@@ -11,7 +11,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+
   },
-  "homepage": "https://hoanganhvo.github.io/<project-repo>"
+  "homepage": "https://HoangAnhVo.github.io/sign-up-form",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
 }
